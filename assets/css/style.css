@@ -1,0 +1,99 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  #logIn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #logIn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .hide{
+    display: none
+  }
+
+  .main {
+    
+    /* margin: auto; */
+    /* width: 50%; */
+  
+    border-radius:5px;
+  
+    text-align: center;
+    padding: 16px;
+    margin-top: 100px;
+    margin-bottom:20px;
+    height: auto;
+  }
+  .form-input{
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: 25%;
+    margin-right: 50%;
+  }
+  #focus{
+    text-align: center;
+  }
+  #video{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+.row{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body{
+  background-image: url("https://img1.goodfon.com/original/1920x1080/7/26/shtanga-trenazhernyy-zal-gym.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto;
+  color: white;
+}
+#middle{
+  text-align: center;
+}
+#greet{
+  background-color: rgba(0, 0, 0, 0.5);
+}

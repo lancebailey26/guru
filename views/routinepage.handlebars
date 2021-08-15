@@ -1,0 +1,10 @@
+<div class='text-center'>
+  <h2>{{routine.name}} </h2>
+  <h3 id='routine-id' class='hide'>{{routine.id}}</h3>
+  <p>{{routine.body}}</p>
+  <p>Created by {{routine.User.name}}</p>
+   <form class='form edit-routine-form'>
+  <input class='form-input ' type='text' id='edit-routine-name' name='routine-name' placeholder="routine name"/>
+  <textarea class='form-input form-control-lg' id='edit-routine-body' name='routine-body' placeholder="routine Body"></textarea>
+  <button type='submit' class='btn btn-primary' data-id='{{routine.id}}'id='subedit'>edit</button>
+  <script src='/js/editroutine.js'/>
