@@ -1,6 +1,37 @@
 <div class='main'>
     <h2 id='greet'>Welcome, {{name}}!</h2>
+    <p class='hide' id="userid">{{id}}</p>
+    <h3 id='greet'>what would you like to work on today?</h3>
+    {{!-- <div class="btn-group" id="focusselector">
+  <button type="button" class="btn btn-danger">Change Focus</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu" id='focuses'>
+    <a class="dropdown-item">Abs</a>
+    <a class="dropdown-item">Arms</a>
+    <a class="dropdown-item">Back</a>
+    <a class="dropdown-item">Calves</a>
+    <a class="dropdown-item">Chest</a>
+    <a class="dropdown-item">Legs</a>
+    <a class="dropdown-item">Shoulders</a>
+    <a class="dropdown-item">Cardio</a>
+  </div>
+</div> --}}
+
+<select id="focus">
+	<option value="1" selected>Abs</option>
+	<option value="2">Arms</option>
+	<option value="3">Back</option>
+    <option value="4">Calves</option>
+    <option value="5">Chest</option>
+    <option value="6">Legs</option>
+    <option value="7">Shoulders</option>
+    <option value="8">Cardio</option>
+</select>
+<button class='btn'id="focusbutton">Submit</button>
 </div>
+
 <div class="container">
     <div class="row" id='focus'>
         <div class="col">
@@ -27,3 +58,5 @@
         </div>
         </div>
 </div>
+</div>
+<script src='./js/focus.js'/>

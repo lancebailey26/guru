@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
     try {
         const newRoutine = await Routine.create({
           ...req.body,
-          "creator_id": 1
+          "creator_id": req.session.user_id
           
          
         });
@@ -41,7 +41,7 @@ router.get('/', async (req, res) => {
       const routineData = await Routine.update(req.body, {
         where: {
           id: req.params.id,
-          // creator_id: req.session.user_id,
+          creator_id: req.session.user_id,
         },
       });
       if (!routineData[0]) {

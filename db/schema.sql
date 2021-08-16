@@ -20,7 +20,7 @@ CREATE TABLE user (
     name VARCHAR(30) NOT NULL,
     email VARCHAR(30) NOT NULL UNIQUE,
     password VARCHAR(30) NOT NULL,
-    focus_group INTEGER NOT NULL REFERENCES category(id)
+    focus_group INTEGER REFERENCES category(id)
 );
 
 CREATE TABLE routine (

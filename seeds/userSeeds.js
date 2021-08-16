@@ -6,31 +6,31 @@ const userData = [
         name: faker.name.findName(),
         email: faker.internet.email(),
         password: faker.internet.password(),
-        focus_group: Math.floor(Math.random() * 7) + 1,
+      focus_group: Math.floor(Math.random() * 7) + 1,
     },
     {
         name: faker.name.findName(),
         email: faker.internet.email(),
         password: faker.internet.password(),
-        focus_group: Math.floor(Math.random() * 7) + 1,
+      focus_group: Math.floor(Math.random() * 7) + 1,
     },
     {
         name: faker.name.findName(),
         email: faker.internet.email(),
         password: faker.internet.password(),
-        focus_group: Math.floor(Math.random() * 7) + 1,
+      focus_group: Math.floor(Math.random() * 7) + 1,
     },
     {
         name: faker.name.findName(),
         email: faker.internet.email(),
         password: faker.internet.password(),
-        focus_group: Math.floor(Math.random() * 7) + 1,
+      focus_group: Math.floor(Math.random() * 7) + 1,
     },
     {
         name: faker.name.findName(),
         email: faker.internet.email(),
         password: faker.internet.password(),
-        focus_group: Math.floor(Math.random() * 7) + 1,
+      focus_group: Math.floor(Math.random() * 7) + 1,
     },
 ];
 
