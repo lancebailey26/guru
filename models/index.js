@@ -6,7 +6,7 @@ const Routine = require('./Routine');
 
 
 Category.hasMany(Exercise, {
-    foreignKey: "id"
+    foreignKey: "category_id"
 });
 Exercise.belongsTo(Category, {
     foreignKey: "category_id"
