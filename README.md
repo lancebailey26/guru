@@ -73,6 +73,12 @@ As a group, we believe that fitness entheusiasts looking to meet their fitness g
 * SO THAT I can get better feedback and advice from those in the know.
 
 
+## Installation
+npm-i to install all necessary packages, then create the database and seed it with by using the included db/schema.sql and seeds/index.js files.
 
+## Credits
+n/a
+
+Copyright 08/16/2021 License: MIT License
 
 
